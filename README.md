@@ -17,3 +17,4 @@ Assumptions:
 1. I am not running a server on apache or anything like that. The server is custom built and meant specifically for this assignment. It will not always be on.
 2. Data will only be sent once the stop button has already been pressed. If the file does not exist and the send button is pressed, data will not be sent.
 3. 'Enter' characters will be ignored while sending data.
+4. The IP address has been hardcoded into the code. 
