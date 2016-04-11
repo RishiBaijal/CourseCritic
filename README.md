@@ -18,3 +18,4 @@ Assumptions:
 2. Data will only be sent once the stop button has already been pressed. If the file does not exist and the send button is pressed, data will not be sent.
 3. 'Enter' characters will be ignored while sending data.
 4. The IP address has been hardcoded into the code. 
+# PCSMA_assignment_4
