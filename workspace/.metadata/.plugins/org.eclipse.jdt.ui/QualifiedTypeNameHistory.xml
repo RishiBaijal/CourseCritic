@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.apache.http.client.methods.HttpPost"/>
-<fullyQualifiedTypeName name="org.apache.http.HttpResponse"/>
-<fullyQualifiedTypeName name="org.apache.http.HttpEntity"/>
-<fullyQualifiedTypeName name="java.io.InputStream"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-</qualifiedTypeNameHistroy>
