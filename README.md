@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PCSMA
 
 This is the repository consisting of the code for all of the PCSMA assignments. The assignments are labelled by their commits. 
@@ -19,3 +20,6 @@ Assumptions:
 3. 'Enter' characters will be ignored while sending data.
 4. The IP address has been hardcoded into the code. 
 # PCSMA_assignment_4
+=======
+# CourseCritic
+>>>>>>> 02a4639cedd0ae5b49629a5fd6c8afaed9a198e5
