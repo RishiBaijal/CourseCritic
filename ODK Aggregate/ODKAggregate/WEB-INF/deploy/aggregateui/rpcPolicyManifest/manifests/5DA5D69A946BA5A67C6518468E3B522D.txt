@@ -1,0 +1,2 @@
+serviceClass: org.opendatakit.common.security.client.security.SecurityService
+path: C55E8F5A4E0A843C71E82F948E8CE147.gwt.rpc

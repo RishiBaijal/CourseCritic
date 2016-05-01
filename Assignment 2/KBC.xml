@@ -1,0 +1,59 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>KBC</h:title>
+    <model>
+      <instance>
+        <data id="build_KBC_1454701858">
+          <meta>
+            <instanceID/>
+          </meta>
+          <ChooseOne>
+            A
+          </ChooseOne>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/ChooseOne:label">
+            <value>Choose one of the following.</value>
+          </text>
+          <text id="/data/ChooseOne:option0">
+            <value>A</value>
+          </text>
+          <text id="/data/ChooseOne:option1">
+            <value>B</value>
+          </text>
+          <text id="/data/ChooseOne:option2">
+            <value>C</value>
+          </text>
+          <text id="/data/ChooseOne:option3">
+            <value>D</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/ChooseOne" type="select1" required="true()"/>
+    </model>
+  </h:head>
+  <h:body>
+    <select1 ref="/data/ChooseOne">
+      <label ref="jr:itext('/data/ChooseOne:label')"/>
+      <item>
+        <label ref="jr:itext('/data/ChooseOne:option0')"/>
+        <value>A</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ChooseOne:option1')"/>
+        <value>B</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ChooseOne:option2')"/>
+        <value>C</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/ChooseOne:option3')"/>
+        <value>D</value>
+      </item>
+    </select1>
+  </h:body>
+</h:html>

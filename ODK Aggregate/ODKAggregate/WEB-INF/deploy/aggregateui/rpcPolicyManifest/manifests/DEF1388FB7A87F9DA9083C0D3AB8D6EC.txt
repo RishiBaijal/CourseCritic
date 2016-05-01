@@ -1,0 +1,2 @@
+serviceClass: org.opendatakit.aggregate.client.odktables.ServerDataService
+path: 5BE5D47E3E9404BE639072D097925B73.gwt.rpc

@@ -1,0 +1,2 @@
+serviceClass: org.opendatakit.aggregate.client.externalserv.ServicesAdminService
+path: 8090604B90037BE64093B2F1CF4CEE6A.gwt.rpc
